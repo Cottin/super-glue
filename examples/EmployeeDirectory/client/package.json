@@ -1,32 +1,48 @@
 {
-  "name": "client",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "react-coffee-hot-boilerplate",
+  "version": "0.1.0",
+  "description": "Boilerplate for ReactJS project with hot code reloading and coffee",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "react": "^0.12.0",
-    "react-router": "^0.12.0",
-    "webpack": "^1.6.0",
-    "coffee-script": "^1.9.1",
-    "coffee-loader": "^0.7.2",
-    "react-coffee-elements": "0.0.2",
-    "jquery": "^2.1.1"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Cottin/react-hot-coffee-boilerplate.git"
   },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Victor Cottin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cottin/react-hot-coffee-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Cottin/react-hot-coffee-boilerplate",
   "devDependencies": {
-    "gulp": "^3.8.11",
-    "portfinder": "^0.4.0",
-    "webpack-dev-server": "^1.7.0",
-    "ejs": "^2.3.1",
-    "gulp-util": "^3.0.4",
-    "body-parser": "^1.12.0",
-    "js2coffee": "^2.0.3",
-    "fs": "0.0.2",
-    "react-hot-loader": "^1.1.7",
-    "gulp-nodemon": "^1.0.5"
+    "body-parser": "^1.12.4",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.9.3",
+    "express": "^4.12.4",
+    "js2coffee": "^2.0.4",
+    "react-hot-loader": "^1.2.7",
+    "webpack": "^1.9.6",
+    "webpack-dev-server": "^1.8.2"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "lodash": "^3.9.3",
+    "moment": "^2.10.3",
+    "radium": "^0.13.2",
+    "ramda": "^0.15.1",
+    "ramda-extras": "^0.1.0",
+    "react": "^0.13.0"
   }
 }

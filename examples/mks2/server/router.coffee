@@ -27,6 +27,8 @@ router = (app) ->
 		ep 'employee', null,
 			get 																	-> mock.employee
 			put ':id', (employee, {id})						-> doit lo.set(mock, "employee[#{id}]", employee), employee
+		ep 'issue', null,
+			get 																	-> mock.employee
 
 
 module.exports = router

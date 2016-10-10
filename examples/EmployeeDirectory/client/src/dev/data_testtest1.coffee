@@ -1,0 +1,3 @@
+data = {}
+
+module.exports = data
